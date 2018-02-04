@@ -1,0 +1,36 @@
+{ 
+    
+    "Genio": [
+        
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   66, 16  ,  70, 20  ,  71, 26  ,  67, 31  ,  58, 22  ,  58, 17  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   58, 22  ,  67, 31  ,  57, 29  ,  54, 19  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   69, 56  ,  75, 35  ,  77, 37  ,  78, 52  ,  75, 56  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   48, 32  ,  57, 29  ,  67, 31  ,  75, 35  ,  44, 61  ,  41, 54  ,  41, 37  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   75, 35  ,  69, 56  ,  44, 107  ,  44, 61  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   51, 103  ,  44, 107  ,  69, 56  ,  69, 60  ,  65, 79  ]
+        }
+    ]
+}

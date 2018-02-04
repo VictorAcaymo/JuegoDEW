@@ -1,0 +1,41 @@
+{ 
+    
+    "Mago100x110": [
+        
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   47, 55  ,  44, 64  ,  40, 49  ,  46, 50  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   41, 44  ,  40, 49  ,  25, 44  ,  27, 39  ,  36, 32  ,  42, 36  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   28, 32  ,  36, 32  ,  27, 39  ,  25, 36  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   11, 104  ,  21, 85  ,  18, 105  ,  13, 106  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   21, 85  ,  25, 74  ,  44, 93  ,  45, 103  ,  43, 105  ,  36, 106  ,  26, 106  ,  18, 105  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   44, 64  ,  44, 93  ,  25, 49  ,  25, 44  ,  40, 49  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   23, 53  ,  25, 49  ,  44, 93  ,  25, 74  ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+body { text-align: center; background-color: rgb(0, 0, 0); }
+img { width: 50%; height: 50%; }
+
+@font-face {
+  font-family:"Dungeon";
+  src:url("DUNGRG__.eot") format("eot"),
+  url("DUNGRG__.woff") format("woff"),
+  url("DUNGRG__.ttf") format("truetype"),
+  url("DUNGRG__.svg") format("svg");
+  font-weight:bold;
+  font-style:normal;
+}
+
+.avatar-selected, .personajes-selected {
+  border: 2px solid #ff0000;
+}
+
+.boton {
+  font-family: "Dungeon";
+  border-radius: 8px;
+  background:rgb(170, 96, 20);
+  -webkit-box-shadow: 0px 5px 0px 0px rgb(112, 41, 41);
+  box-shadow: 0px 5px 0px 0px rgb(112, 41, 41);
+  display:inline-block;
+  margin:0px 10px 10px 0px;
+  padding:10px;
+  text-decoration:none;
+  transition: all 0.10s ease-in-out;
+  -webkit-transition: all 0.10s ease-in-out;
+  position:relative;
+  color: white;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+#dificultad { display:none; }
+#personajes { display:none; }
+#juego { margin-top: 1em; }
+
+.form-group div a {
+  padding: 5px;
+}
+
+.boton:active{
+  top:4px;
+  -webkit-box-shadow: 0px 1px 0px 0px rgb(112, 41, 41);
+  box-shadow: 0px 1px 0px 0px rgb(112, 41, 41);
+}
+
+p { margin: 3em; }
+
+h3, label, span { font-family: "Dungeon"; font-size:60px; color: rgb(255, 255, 255); }
+label, span { font-size: 30px; }
+.user { padding-top: 4em; }
+
+.avatar {
+  vertical-align: middle;
+  width: 70px;
+  height: 70px;
+  margin-right: 1em;
+}
+
+.personajes { width: 10%; height: 30%; margin: 1em; }

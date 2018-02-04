@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Monster Killer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link type="text/css" href="../CSS/estilo.css" rel="Stylesheet" />
+        <script src="../Jquery/juego.js"></script>
+        <script src="../Jquery/menuPersonal.js"></script>
+        <script src="../Jquery/phaser.min.js"></script>
+    </head>
+    <body>
+      <div class="container">
+        <div class="col-sm-7">
+          <img src="../Imagenes/MonsterKiller.png"/>
+        </div>
+        <div class="col-sm-4 user">
+          <span></span>
+        </div>
+      </div>
+      <div class="container" id="menu">
+          <h3>Menu principal</h3>
+          <div>
+              <a class="boton" id="jugar" href="#">Jugar</a>
+              <div id="dificultad">
+              <ul>
+                  <li>
+                    <a class="boton" href="#">Facil</a>
+                  </li>
+                  <li>
+                    <a class="boton" href="#">Medio</a>
+                  </li>
+                  <li>
+                    <a class="boton" href="#">Dificil</a>
+                  </li>
+              </ul>
+            </div>
+            <div id="personajes">
+              <h3>Elige un personaje</h3>
+              <img src="../Imagenes/MagoImagen.png" alt="mago" class="personajes"/>
+              <img src="../Imagenes/GenioImagen.png" alt="genio" class="personajes"/>
+              <img src="../Imagenes/ElfoImagen.png" alt="arquero" class="personajes"/>
+            </div>
+          </div>
+      </div>
+      <div class="container" id="juego"></div>
+    </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Monster Killer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link type="text/css" href="CodeSeven-toastr-61c48a6/build/toastr.css" rel="Stylesheet"/>
+        <script type="text/javascript" src="CodeSeven-toastr-61c48a6/toastr.js"></script>
+        <link type="text/css" href="CSS/estilo.css" rel="Stylesheet" />
+        <script src="Jquery/codigo.js"></script>
+        <script src="Jquery/objetos.js"></script>
+    </head>
+    <body>
+      <div>
+        <img src="Imagenes/MonsterKiller.png"/>
+      </div>
+      <div class="container" id="menu">
+          <p>
+              <a class="boton" href="#">Iniciar Sesion</a>
+          </p>
+          <p>
+              <a class="boton" href="#">Registro</a>
+          </p>        
+      </div>
+      <div class="container" id="login">
+        <h3>Inicio de sesion</h3>
+          <form class="form-horizontal" method="get" action="Paginas/principal.html">
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="user">Usuario:</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" id="user" placeholder="Escribe el nombre usuario" name="nombre" required="true">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="password">Contraseña: </label>
+                <div class="col-sm-5">
+                  <input type="password" class="form-control" id="password" placeholder="Escribe la contraseña" required="true">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-4 col-sm-5">
+                  <input type="submit" class="boton" id="enviarLogin" value="Login"/>
+                  <a class="boton cancel" href="#">Cancelar</a>
+                  <a class="boton reset" href="#">Reset</a>
+                </div>
+              </div>
+          </form>
+      </div>
+      <div class="container" id="registro">
+        <h3>Registro</h3>
+          <form class="form-horizontal" method="get" action="Paginas/principal.html">
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="usuario">Nombre usuario:</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" id="usuario" placeholder="Escribe tu nombre usuario" name="nombre" required="true">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="password2">Contraseña: </label>
+                <div class="col-sm-5">
+                  <input type="password" class="form-control" id="password2" placeholder="Escribe tu contraseña" required="true">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="password3">Repetir contraseña: </label>
+                <div class="col-sm-5">
+                  <input type="password" class="form-control" id="password3" placeholder="Escribe otra vez la contraseña" required="true">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4" for="email">Correo electronico: </label>
+                <div class="col-sm-5">
+                  <input type="email" class="form-control" id="email" placeholder="Escribe tu email" required="true">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-4">Avatar: </label>
+                <div class="col-sm-5">
+                  <img src="Imagenes/avatar1.png" class="avatar img-circle" alt="avatar1">
+                  <img src="Imagenes/avatar2.png" class="avatar img-circle" alt="avatar2">
+                  <img src="Imagenes/avatar3.png" class="avatar img-circle" alt="avatar3">
+                  <img src="Imagenes/avatar4.png" class="avatar img-circle" alt="avatar4">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-4 col-sm-5">
+                  <input type="submit" class="boton" id="enviarRegistro" value="Registrar"/>
+                  <a class="boton cancel" href="#">Cancelar</a>
+                  <a class="boton reset" href="#">Reset</a>
+                </div>
+              </div>
+          </form>
+      </div>
+    </body>
+</html>
